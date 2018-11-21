@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: "AcuraBespoke-Light";
-  src: url("/assets/fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Light.otf") format("truetype");
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Light.otf") format("truetype");
 }
 
 @font-face {
   font-family: "AcuraBespoke-Regular";
-  src: url("/assets/fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Regular.otf") format("truetype");
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Regular.otf") format("truetype");
 }
 
 @font-face {
   font-family: "AcuraBespoke-Bold";
-  src: url("/assets/fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
 }
 
 @font-face {
   font-family: "Acura-Performance-v2";
-  src: url("/assets/fonts/Acura-Performance-v2/Acura-Performance-v2/Acura-Performance-v2.otf") format("truetype");
+  src: url("../fonts/Acura-Performance-v2/Acura-Performance-v2/Acura-Performance-v2.otf") format("truetype");
 }
 
 .acura-headline,
