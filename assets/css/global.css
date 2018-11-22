@@ -425,10 +425,10 @@
 @media screen and (min-width: 1024px) {
 
   #header-img-lg {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(https://s3.amazonaws.com/fzautomotive/dealers/5be37349c6b4a.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be37349c6b4a.jpg);
-    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be37349c6b4a.jpg);
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be37349c6b4a.jpg); /* 1440 x 943 */
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg); /* 1440 x 943 */
     background-size: cover;
     height: 0;
     padding-bottom: 65.4%;
