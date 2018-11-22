@@ -294,10 +294,10 @@
   }
 
   #header-img-sm {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/nsx/2019-acura-nsx-front-white/640x419-compressed.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/640x419-compressed.jpg);
-    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/640x419-compressed.jpg);
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/640x419-compressed.jpg); /* 640 x 419 */
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg); /* 640 x 419 */
     background-size: cover;
     height: 0;
     padding-bottom: 65.4%;
@@ -311,7 +311,7 @@
   }
 
   #image-double {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be3ac0b18395.jpg) no-repeat center; /* 640 x 583 */
+    background: url(../img/2019-acura-nsx/gearshift/640x583-compressed.jpg) no-repeat center; /* 640 x 583 */
     background-size: cover;
   }
 
@@ -391,10 +391,10 @@
 @media screen and (min-width: 640px) and (max-width: 1023px) {
 
   #header-img-lg {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/nsx/2019-acura-nsx-front-white/1024x671-compressed.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1024x671-compressed.jpg);
-    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1024x671-compressed.jpg);
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1024x671-compressed.jpg); /* 1024 x 671 */
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg); /* 1024 x 671 */
     background-size: cover;
     height: 0;
     padding-bottom: 65.4%;
@@ -402,7 +402,7 @@
   }
 
   #image-double {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be3ac6b47dd0.jpg) no-repeat center; /* 341 x 311 */
+    background: url(../img/2019-acura-nsx/gearshift/341x311-compressed.jpg) no-repeat center; /* 341 x 311 */
     background-size: cover;
   }
 
@@ -425,10 +425,10 @@
 @media screen and (min-width: 1024px) {
 
   #header-img-lg {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg);
-    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg);
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/nsx/2019-acura-nsx-front-white/1440x943-compressed.jpg); /* 1440 x 943 */
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg); /* 1440 x 943 */
     background-size: cover;
     height: 0;
     padding-bottom: 65.4%;
@@ -462,7 +462,7 @@
   }
 
   #image-double {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be3ac96edaab.jpg) no-repeat center; /* 480 x 437 */
+    background: url(../img/2019-acura-nsx/gearshift/480x437-compressed.jpg) no-repeat center; /* 480 x 437 */
     background-size: cover;
   }
 
