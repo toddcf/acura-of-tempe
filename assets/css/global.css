@@ -316,15 +316,15 @@
   }
 
   #image-triple {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be3ae5b19481.jpg) no-repeat center; /* 640 x 941 */
+    background: url(../img/2019-acura-nsx/blue-bridge/640x941-compressed.jpg) no-repeat center; /* 640 x 941 */
     background-size: cover;
   }
 
   #desert-sky-img {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4424804f.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4424804f.jpg);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4424804f.jpg);
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4424804f.jpg); /* 640 x 604 */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg); /* 640 x 604 */
     background-size: cover;
   }
 
@@ -407,15 +407,15 @@
   }
 
   #image-triple {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be3aeced7eff.jpg) no-repeat center; /* 341 x 502 */
+    background: url(../img/2019-acura-nsx/blue-bridge/341x502-compressed.jpg) no-repeat center; /* 341 x 502 */
     background-size: cover;
   }
 
   #desert-sky-img {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4d0dbecd.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4d0dbecd.jpg);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4d0dbecd.jpg);
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b4d0dbecd.jpg); /* 1024 x 967 */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg); /* 1024 x 967 */
     background-size: cover;
   }
 
@@ -467,7 +467,7 @@
   }
 
   #image-triple {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be3af10bf6dd.jpg) no-repeat center; /* 480 x 706 */
+    background: url(../img/2019-acura-nsx/blue-bridge/480x706-compressed.jpg) no-repeat center; /* 480 x 706 */
     background-size: cover;
   }
 
@@ -476,10 +476,10 @@
   }
 
   #desert-sky-img {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b501acfa3.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b501acfa3.jpg);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b501acfa3.jpg);
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(https://s3.amazonaws.com/fzautomotive/dealers/5be3b501acfa3.jpg); /* 1440 x 1360 */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg); /* 1440 x 1360 */
     background-size: cover;
   }
 
