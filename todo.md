@@ -10,7 +10,7 @@
     - Only load the fonts you need on each page's local CSS file.
   - Host all the videos and images yourself:
     - ILX [DONE]
-    - MDX [IN PROGRESS]
+    - MDX [IN PROGRESS] [ALSO FIX RIGHT-ALIGNED H1.]
     - NSX [DONE]
     - RDX
     - RLX
