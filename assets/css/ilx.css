@@ -10,7 +10,7 @@
   }
 
   #dual-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be07ee63732a.jpg) no-repeat center; /* 512 x 288 */
+    background: url(../img/2019-acura-ilx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -23,13 +23,13 @@
 @media screen and (min-width: 40em) {
 
   #dual-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be07ee63732a.jpg) no-repeat center; /* 512 x 288 */
+    background: url(../img/2019-acura-ilx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
     background-size: cover;
     float: left;
   }
 
   #dual-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be0809bc3e08.jpg) no-repeat center; /* 512 x 288 */
+    background: url(../img/2019-acura-ilx/dual-2/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
     background-size: cover;
   }
 
@@ -63,7 +63,7 @@
   }
 
   #contact-section-img-lg {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be094cfc5151.jpg) no-repeat center; /* 1440 x 864 no gradient*/
+    background: url(../img/2019-acura-ilx/contact-img/1440x864-compressed.jpg) no-repeat center; /* 1440 x 864 no gradient*/
     background-size: cover;
     height: 0;
     padding-bottom: 60%;

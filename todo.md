@@ -1,10 +1,6 @@
 # To Do
 
-- NSX:
-  - Fix "View Inventory" link filepath.
-
 - All:
-  - Max-width: 1440px.
   - Build nav.
   - Update links (#).
   - Fix responsive font sizes.
@@ -13,8 +9,8 @@
   - Abstract the CSS into one Global file and then one smaller local file per vehicle page.
     - Only load the fonts you need on each page's local CSS file.
   - Host all the videos and images yourself:
-    - ILX
-    - MDX
+    - ILX [DONE]
+    - MDX [IN PROGRESS]
     - NSX [DONE]
     - RDX
     - RLX
