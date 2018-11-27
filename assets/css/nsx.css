@@ -1,0 +1,495 @@
+/* FONTS */
+
+@font-face {
+  font-family: "AcuraBespoke-Light";
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AcuraBespoke-Regular";
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AcuraBespoke-Bold";
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Acura-Performance-v2";
+  src: url("../fonts/Acura-Performance-v2/Acura-Performance-v2/Acura-Performance-v2.otf") format("truetype");
+}
+
+.acura-headline,
+.acura-subhead,
+.acura-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.acura-headline {
+  color: #1e264e;
+  font-family: "AcuraBespoke-Light" !important;
+  font-size: 2.5rem;
+  line-height: 1.17;
+  letter-spacing: 0.021em;
+}
+
+.acura-subhead {
+  font-family: "AcuraBespoke-Bold" !important;
+  font-size: 1.875rem;
+}
+
+.acura-header {
+  font-family: "AcuraBespoke-Bold" !important;
+}
+
+.acura-performance-v2 {
+  font-family: "Acura-Performance-v2" !important;
+  font-size: 2.9rem;
+}
+
+.body-copy {
+  text-align: center;
+}
+
+#project-container p {
+  font-size: 16px;
+}
+
+#h1-container {
+  text-align: center;
+  color: #e6231e;
+  padding: 1rem 0 0 0;
+}
+
+#h1-row-1 {
+  text-transform: none;
+}
+
+
+
+
+/* BUTTONS AND LINKS */
+.acura-link-container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.acura-inventory-link,
+.acura-inventory-link:link,
+.acura-inventory-link:focus,
+.acura-inventory-link:visited {
+  color: #e6231e;
+  display: inline-block;
+  font-family: "AcuraBespoke-Bold" !important;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.acura-inventory-link:hover,
+.acura-inventory-link:active {
+  color: #000;
+}
+
+.acura-inventory-link:before,
+.acura-inventory-link:after {
+  content: " ";
+  display: inline-block;
+  width: 50px;
+  border-bottom: 1px solid;
+  position: absolute;
+  bottom: 50%;
+}
+
+.acura-inventory-link:before {
+  right: 100%;
+  margin-right: 0.5rem;
+}
+
+.acura-inventory-link:after {
+  left: 100%;
+  margin-left: 0.5rem;
+}
+
+.acura-btn-anchor,
+.acura-btn-anchor:active {
+  text-decoration: none;
+}
+
+.acura-btn-anchor:active,
+.acura-btn-anchor:hover {
+  outline: 0;
+}
+
+#project-container .acura-link:link,
+#project-container .acura-link:visited {
+  border-bottom: 1px solid #e82c2a;
+  color: #e82c2a;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+#project-container .acura-link:hover,
+#project-container .acura-link:active,
+#project-container .acura-link:focus {
+  border-bottom: 1px solid #005096;
+  color: #005096;
+}
+
+
+
+
+/* SPACING */
+#project-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#offset-section .body-copy {
+  margin-bottom: 3rem;
+}
+
+
+
+
+/* OTHER STYLES */
+#offset-section {
+  margin-top: -3%;
+}
+
+#image-double {
+  height: 0;
+  padding-bottom: 91%;
+  width: 100%;
+}
+
+#image-triple {
+  height: 0;
+  padding-bottom: 147%;
+  width: 100%;
+}
+
+#sky-section .acura-headline {
+  margin: 3rem 0 1.5rem 0;
+}
+
+#desert-sky-img {
+  height: 0;
+  margin-top: -45%;
+  padding-bottom: 94%;
+  width: 100%;
+}
+
+
+
+
+
+
+/* STYLED FORM */
+#styled-form {
+  background: #000;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+#styled-form h2 {
+  font-family: "AcuraBespoke-Light" !important;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#styled-form h5 {
+  display: none;
+}
+
+#styled-form .callout {
+  background: transparent;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#styled-form .callout label {
+  color:#fff;
+}
+
+#styled-form .callout input {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #fff;
+}
+
+#styled-form label[name=preferred] {
+  font-size: 9px;
+}
+
+#styled-form textarea {
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+}
+
+#styled-form input.button {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e82c2a), color-stop(0, transparent));
+  background: -webkit-linear-gradient(left, #e82c2a 50%, transparent 0);
+  background: -o-linear-gradient(left, #e82c2a 50%, transparent 0);
+  background: linear-gradient(to right, #e82c2a 50%, transparent 0);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: .07rem;
+  padding: 1.4rem 3.1rem;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 100%;
+}
+
+#styled-form input.button:hover,
+#styled-form input.button:focus,
+#styled-form input.button:active {
+  background-color: transparent;
+  background-position: left bottom;
+  border: 2px solid #e82c2a;
+  color: #fff;
+}
+
+#styled-form small {
+  font-size: 40%;
+}
+
+#styled-form input[type=checkbox] {
+  margin: 0;
+}
+/* END STYLED FORM */
+
+
+
+
+/* Foundation Breakpoints */
+
+/* Small only (below 640px) */
+@media screen and (max-width: 639px) {
+
+  .show-for-medium {
+    display: none !important;
+  }
+
+  #header-img-sm {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/640x419-compressed.jpg); /* 640 x 419 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 65.4%;
+    width: 100%;
+  }
+
+  .video-container,
+  #image-double,
+  #image-triple {
+    margin-bottom: 0.75rem;
+  }
+
+  #image-double {
+    background: url(../img/2019-acura-nsx/gearshift/640x583-compressed.jpg) no-repeat center; /* 640 x 583 */
+    background-size: cover;
+  }
+
+  #image-triple {
+    background: url(../img/2019-acura-nsx/blue-bridge/640x941-compressed.jpg) no-repeat center; /* 640 x 941 */
+    background-size: cover;
+  }
+
+  #desert-sky-img {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/640x604-compressed.jpg); /* 640 x 604 */
+    background-size: cover;
+  }
+
+}
+
+/* Medium and up (above 640px) */
+@media screen and (min-width: 640px) {
+
+  #project-container {
+    font-size: 13px; /* 1 rem */
+  }
+
+  .hide-for-medium {
+    display: none !important;
+  }
+
+  .show-for-medium {
+    display: block !important;
+  }
+
+  #h1-container {
+    background: -webkit-radial-gradient(center, ellipse, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 70%);
+    background: -o-radial-gradient(center, ellipse, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 70%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 70%);
+    color: #fff;
+    padding: 2rem 0;
+  }
+
+  .acura-subhead,
+  .acura-performance-v2 {
+    color: #fff;
+  }
+
+  .acura-performance-v2 {
+    font-size: 5rem;
+  }
+
+  .acura-headline {
+    font-size: 3rem;
+  }
+
+  #offset-section {
+    margin-top: -8%;
+  }
+
+  .acura-link-container {
+    margin-bottom: 1rem;
+  }
+
+  #sky-section .acura-headline {
+    margin: 4rem 0 2rem 0;
+  }
+
+  #styled-form {
+    border: 6px solid #fff;
+    margin: -20% auto 4rem auto;
+    max-width: 800px;
+    width: 80%;
+  }
+
+}
+
+/* Medium only (between 640px and 1024px) */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+
+  #header-img-lg {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1024x671-compressed.jpg); /* 1024 x 671 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 65.4%;
+    width: 100%;
+  }
+
+  #image-double {
+    background: url(../img/2019-acura-nsx/gearshift/341x311-compressed.jpg) no-repeat center; /* 341 x 311 */
+    background-size: cover;
+  }
+
+  #image-triple {
+    background: url(../img/2019-acura-nsx/blue-bridge/341x502-compressed.jpg) no-repeat center; /* 341 x 502 */
+    background-size: cover;
+  }
+
+  #desert-sky-img {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1024x967-compressed.jpg); /* 1024 x 967 */
+    background-size: cover;
+  }
+
+}
+
+/* Large and up (above 1024px) */
+@media screen and (min-width: 1024px) {
+
+  #project-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  #header-img-lg {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 1)), color-stop(22%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 22%), url(../img/2019-acura-nsx/front-white/1440x943-compressed.jpg); /* 1440 x 943 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 65.4%;
+    width: 100%;
+  }
+
+  #h1-container {
+    padding: 4rem 0;
+  }
+
+  .acura-performance-v2 {
+    font-size: 8rem;
+  }
+
+  #h1-year {
+    font-family: "AcuraBespoke-Regular" !important;
+  }
+
+  #offset-section {
+    margin-top: -6%;
+  }
+
+  .acura-link-container {
+    margin-bottom: 2rem;
+  }
+
+  .acura-inventory-link,
+  .acura-inventory-link:link,
+  .acura-inventory-link:visited {
+    font-size: 1.25rem;
+  }
+
+  #image-double {
+    background: url(../img/2019-acura-nsx/gearshift/480x437-compressed.jpg) no-repeat center; /* 480 x 437 */
+    background-size: cover;
+  }
+
+  #image-triple {
+    background: url(../img/2019-acura-nsx/blue-bridge/480x706-compressed.jpg) no-repeat center; /* 480 x 706 */
+    background-size: cover;
+  }
+
+  #sky-section .acura-headline {
+    margin: 6rem 0 2rem 0;
+  }
+
+  #desert-sky-img {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(70%, rgba(255, 255, 255, 0))), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 70%), url(../img/2019-acura-nsx/silver-desert-sky/1440x1360-compressed.jpg); /* 1440 x 1360 */
+    background-size: cover;
+  }
+
+}
+
+/* Large only (between 1024px and 1200px) */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {}

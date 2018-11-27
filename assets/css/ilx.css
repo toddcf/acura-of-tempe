@@ -1,0 +1,86 @@
+
+
+
+
+
+/* Small only (below 640px) */
+@media screen and (max-width: 39.9375em) {
+
+  #header-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be07b0651364.jpg) no-repeat center; /* 640 x 195 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30.5%;
+    width: 100%;
+  }
+
+  .dual-images-container,
+  .callout-text {
+    margin: 0 auto;
+    max-width: 512px;
+    width: 100%;
+  }
+
+  #dual-1 {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be07ee63732a.jpg) no-repeat center; /* 512 x 288 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+}
+
+/* Medium and up (above 640px) */
+@media screen and (min-width: 40em) {
+
+  #dual-1 {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be07ee63732a.jpg) no-repeat center; /* 512 x 288 */
+    background-size: cover;
+    float: left;
+  }
+
+  #dual-2 {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be0809bc3e08.jpg) no-repeat center; /* 512 x 288 */
+    background-size: cover;
+  }
+
+}
+
+/* Medium only (between 640px and 1024px) */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+  #header-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be07b4bcd7c6.jpg) no-repeat center; /* 1024 x 312 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30.5%;
+    width: 100%;
+  }
+
+}
+
+/* Large and up (above 1024px) */
+@media screen and (min-width: 64em) {
+
+  #header-img-lg {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(https://s3.amazonaws.com/fzautomotive/dealers/5be077d32b501.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(https://s3.amazonaws.com/fzautomotive/dealers/5be077d32b501.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(https://s3.amazonaws.com/fzautomotive/dealers/5be077d32b501.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(https://s3.amazonaws.com/fzautomotive/dealers/5be077d32b501.jpg);
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30.5%;
+    width: 100%;
+  }
+
+  #contact-section-img-lg {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be094cfc5151.jpg) no-repeat center; /* 1440 x 864 no gradient*/
+    background-size: cover;
+    height: 0;
+    padding-bottom: 60%;
+    position: relative;
+    width: 100%;
+  }
+
+}
