@@ -15,11 +15,6 @@
   src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
 }
 
-@font-face {
-  font-family: "Acura-Performance-v2";
-  src: url("../fonts/Acura-Performance-v2/Acura-Performance-v2/Acura-Performance-v2.otf") format("truetype");
-}
-
 .acura-subhead,
 .acura-header {
   text-transform: uppercase;
