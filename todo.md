@@ -1,6 +1,7 @@
 # To Do
 
 - All:
+  - Give callout boxes some side margins on small screens.
   - Build nav.
   - Update links (#).
   - Fix responsive font sizes.
