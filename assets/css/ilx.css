@@ -62,6 +62,18 @@
     width: 100%;
   }
 
+  #h1-container {
+    margin-left: 2rem;
+  }
+
+  .acura-headline {
+    color: #fff;
+  }
+
+  .dual-images-container {
+    margin: -4% auto 2rem auto;
+  }
+
   #contact-section-img-lg {
     background: url(../img/2019-acura-ilx/contact-img/1440x864-compressed.jpg) no-repeat center; /* 1440 x 864 no gradient*/
     background-size: cover;

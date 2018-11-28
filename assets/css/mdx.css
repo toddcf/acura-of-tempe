@@ -2,7 +2,7 @@
 @media screen and (max-width: 39.9375em) {
 
   #header-img-sm {
-    background: url(../img/2019-acura-ilx/header-img/640x195-compressed.jpg) no-repeat center; /* 640 x 195 */
+    background: url(../img/2019-acura-mdx/header-img/640x195-compressed.jpg) no-repeat center; /* 640 x 195 */
     background-size: cover;
     height: 0;
     padding-bottom: 30.5%;
@@ -10,7 +10,7 @@
   }
 
   #dual-1 {
-    background: url(../img/2019-acura-ilx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
+    background: url(../img/2019-acura-mdx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -23,13 +23,13 @@
 @media screen and (min-width: 40em) {
 
   #dual-1 {
-    background: url(../img/2019-acura-ilx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
+    background: url(../img/2019-acura-mdx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
     background-size: cover;
     float: left;
   }
 
   #dual-2 {
-    background: url(../img/2019-acura-ilx/dual-2/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
+    background: url(../img/2019-acura-mdx/dual-2/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
     background-size: cover;
   }
 
@@ -39,7 +39,7 @@
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
 
   #header-img-sm {
-    background: url(../img/2019-acura-ilx/header-img/1024x312-compressed.jpg) no-repeat center; /* 1024 x 312 */
+    background: url(../img/2019-acura-mdx/header-img/1024x312-compressed.jpg) no-repeat center; /* 1024 x 312 */
     background-size: cover;
     height: 0;
     padding-bottom: 30.5%;
@@ -52,367 +52,10 @@
 @media screen and (min-width: 64em) {
 
   #header-img-lg {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../img/2019-acura-ilx/header-img/1440x440-compressed.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-ilx/header-img/1440x440-compressed.jpg);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-ilx/header-img/1440x440-compressed.jpg);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-ilx/header-img/1440x440-compressed.jpg); /* 1440 x 440 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 30.5%;
-    width: 100%;
-  }
-
-  #contact-section-img-lg {
-    background: url(../img/2019-acura-ilx/contact-img/1440x864-compressed.jpg) no-repeat center; /* 1440 x 864 no gradient*/
-    background-size: cover;
-    height: 0;
-    padding-bottom: 60%;
-    position: relative;
-    width: 100%;
-  }
-
-}
-
-
-
-
-
-/* FONTS */
-
-@font-face {
-  font-family: "AcuraBespoke-Light";
-  src: url("/include/AcuraBespoke/AcuraBespoke-Light.otf") format("truetype");
-}
-
-@font-face {
-  font-family: "AcuraBespoke-Regular";
-  src: url("/include/AcuraBespoke/AcuraBespoke-Regular.otf") format("truetype");
-}
-
-@font-face {
-  font-family: "AcuraBespoke-Bold";
-  src: url("/include/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
-}
-
-.acura-subhead,
-.acura-header {
-  text-transform: uppercase;
-}
-
-.acura-headline,
-.acura-subhead {
-  font-family: "AcuraBespoke-Light" !important;
-}
-
-.acura-header {
-  font-family: "AcuraBespoke-Bold" !important;
-}
-
-#project-container {
-  font-size: 16px;
-}
-
-#project-container p {
-  font-size: 16px;
-}
-
-.acura-headline {
-  color: #1e264e;
-  font-size: 5em;
-  line-height: 1.17;
-  letter-spacing: 0.021em;
-}
-
-#h1-year {
-  font-size: 2rem;
-}
-
-#h1-sub {
-  font-family: "AcuraBespoke-Regular" !important;
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
-  text-transform: none;
-}
-
-
-
-
-/* BUTTONS AND LINKS */
-.acr-cta-r-trans-w {
-  display: inline-block;
-  border: 2px solid #1e264e;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #1e264e), color-stop(0, transparent));
-  background: -webkit-linear-gradient(left, #1e264e 50%, transparent 0);
-  background: -o-linear-gradient(left, #1e264e 50%, transparent 0);
-  background: linear-gradient(to right, #1e264e 50%, transparent 0);
-  background-position: right bottom;
-  background-size: 200% 100%;
-  padding: 1.4rem 3.1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.2rem;
-  letter-spacing: .07rem;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-  position: relative;
-  color: #1e264e;
-  margin-bottom: 2rem;
-}
-
-.acr-cta-r-trans-w:hover {
-  background-color: transparent;
-  background-position: left bottom;
-  border: 2px solid #1e264e;
-  color: #fff;
-}
-
-.acura-btn-anchor,
-.acura-btn-anchor:active {
-  text-decoration: none;
-}
-
-.acura-btn-anchor:active,
-.acura-btn-anchor:hover {
-  outline: 0;
-}
-
-.callout-text,
-.video-description {
-  padding: 1.5rem;
-}
-
-#project-container .acura-link:link,
-#project-container .acura-link:visited {
-  border-bottom: 1px solid #e82c2a;
-  color: #e82c2a;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-}
-
-#project-container .acura-link:hover,
-#project-container .acura-link:active,
-#project-container .acura-link:focus {
-  border-bottom: 1px solid #005096;
-  color: #005096;
-}
-
-
-
-
-/* SPACING */
-#project-container {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-#project-container section {
-  margin-bottom: 2rem;
-}
-
-
-
-
-/* OTHER STYLES */
-.callout-text {
-  border: 1px solid #000;
-}
-
-
-
-
-
-
-/* STYLED FORM */
-#styled-form {
-  background:rgba(0,0,0,.78);
-  color:#fff;
-  padding:1rem;
-  border-radius: 5px;
-}
-
-#styled-form h3 {
-  font-size: 1.5rem;
-}
-
-#styled-form .callout {
-  background:transparent;
-  color:#fff;
-  margin:0;
-  padding:0;
-}
-
-#styled-form .callout label {
-  color:#fff;
-}
-
-#styled-form .callout input {
-  background:transparent;
-  border:1px solid #fff;
-  color:#fff;
-  border-radius:5px;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
-}
-
-#styled-form label[name=preferred] {
-  font-size:9px;
-}
-
-#styled-form textarea {
-  border-radius: 5px;
-  background: transparent;
-  color: #fff;
-}
-
-#styled-form input.button {
-  border-radius: 5px;
-  width: 100%;
-  border: 2px solid #fff;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e82c2a), color-stop(0, transparent));
-  background: -webkit-linear-gradient(left, #e82c2a 50%, transparent 0);
-  background: -o-linear-gradient(left, #e82c2a 50%, transparent 0);
-  background: linear-gradient(to right, #e82c2a 50%, transparent 0);
-  background-position: right bottom;
-  background-size: 200% 100%;
-  padding: 1.4rem 3.1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.2rem;
-  letter-spacing: .07rem;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-  position: relative;
-}
-
-#styled-form input.button:hover,
-#styled-form input.button:focus,
-#styled-form input.button:active {
-  background-color: transparent;
-  background-position: left bottom;
-  border: 2px solid #e82c2a;
-  color: #fff;
-}
-
-#styled-form small {
-  font-size:40%;
-}
-
-#styled-form input[type=checkbox] {
-  margin:0;
-}
-/* END STYLED FORM */
-
-
-
-
-/* Foundation Breakpoints */
-
-/* Small only (below 640px) */
-@media screen and (max-width: 39.9375em) {
-
-  #header-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be24b55cd0c6.jpg) no-repeat center; /* 640 x 195 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 30.5%;
-    width: 100%;
-  }
-
-  .dual-images-container,
-  .callout-text {
-    margin: 0 auto;
-    max-width: 512px;
-    width: 100%;
-  }
-
-  #dual-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be24d0439396.jpg) no-repeat center; /* 512 x 288 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 56.25%;
-    width: 100%;
-  }
-
-}
-
-/* Medium and up (above 640px) */
-@media screen and (min-width: 40em) {
-
-  #project-container section {
-    margin-bottom: 6rem;
-  }
-
-  .dual-images-container,
-  .callout-text {
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 100%;
-  }
-
-  .dual-images-container {
-    margin-bottom: 1rem;
-  }
-
-  #dual-1,
-  #dual-2 {
-    display: inline-block;
-    height: 0;
-    padding-bottom: 27.75%;
-    width: 50%;
-  }
-
-  #dual-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be24d0439396.jpg) no-repeat center; /* 512 x 288 */
-    background-size: cover;
-    float: left;
-  }
-
-  #dual-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be24a02f0c51.jpg) no-repeat center; /* 512 x 288 */
-    background-size: cover;
-  }
-
-  .video-description {
-    padding-top: 0;
-  }
-
-  .video-text {
-    border-left: 2px solid #e82c2a;
-    padding-left: 1rem;
-  }
-
-}
-
-/* Medium only (between 640px and 1024px) */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
-  #header-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be24b76c6745.jpg) no-repeat center; /* 1024 x 312 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 30.5%;
-    width: 100%;
-  }
-
-}
-
-/* Large and up (above 1024px) */
-@media screen and (min-width: 64em) {
-
-  #project-container {
-    font-size: 16px;
-  }
-
-  #header-img-lg {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(https://s3.amazonaws.com/fzautomotive/dealers/5be2482a74699.jpg);
-    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://s3.amazonaws.com/fzautomotive/dealers/5be2482a74699.jpg);
-    background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://s3.amazonaws.com/fzautomotive/dealers/5be2482a74699.jpg);
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://s3.amazonaws.com/fzautomotive/dealers/5be2482a74699.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../img/2019-acura-mdx/header-img/1440x440-compressed.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-mdx/header-img/1440x440-compressed.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-mdx/header-img/1440x440-compressed.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-mdx/header-img/1440x440-compressed.jpg); /* 1440 x 440 */
     background-size: cover;
     height: 0;
     padding-bottom: 30.5%;
@@ -429,61 +72,12 @@
     color: #fff;
   }
 
-  #h1-year {
-    font-family: "AcuraBespoke-Regular" !important;
-  }
-
-  .acr-cta-r-trans-w {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e82c2a), color-stop(0, transparent));
-    background: -webkit-linear-gradient(left, #e82c2a 50%, transparent 0);
-    background: -o-linear-gradient(left, #e82c2a 50%, transparent 0);
-    background: linear-gradient(to right, #e82c2a 50%, transparent 0);
-    background-position: right bottom;
-    background-size: 200% 100%;
-    border: 2px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    letter-spacing: .07rem;
-    margin-bottom: 0;
-    padding: 1.4rem 3.1rem;
-    position: relative;
-    text-transform: uppercase;
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-  }
-
-  .acr-cta-r-trans-w:hover {
-    background-color: transparent;
-    background-position: left bottom;
-    border: 2px solid #e82c2a;
-    color: #fff;
-  }
-
   .dual-images-container {
     margin: -2% auto 2rem auto;
   }
 
-  .video-description {
-    position: relative;
-    height: 0;
-    padding-bottom: 50%;
-    width: 100%;
-  }
-
-  .video-text {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-
   #contact-section-img-lg {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5be24e00eb657.jpg) no-repeat center; /* 1440 x 864 no gradient*/
+    background: url(../img/2019-acura-mdx/contact-img/1440x864-compressed.jpg) no-repeat center; /* 1440 x 864 no gradient*/
     background-size: cover;
     height: 0;
     padding-bottom: 60%;
@@ -491,17 +85,4 @@
     width: 100%;
   }
 
-  #styled-form {
-    right: 3%;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    width: 46%;
-  }
-
 }
-
-/* Large only (between 1024px and 1200px) */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}

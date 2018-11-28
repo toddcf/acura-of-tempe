@@ -293,7 +293,7 @@
 /* Large and up (above 1024px) */
 @media screen and (min-width: 64em) {
 
-  .row {
+  #project-container .row {
     max-width: 1440px;
   }
 
@@ -302,14 +302,6 @@
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
-  }
-
-  #h1-container {
-    margin-left: 2rem;
-  }
-
-  .acura-headline {
-    color: #fff;
   }
 
   #h1-year {
@@ -344,10 +336,6 @@
     background-position: left bottom;
     border: 2px solid #e82c2a;
     color: #fff;
-  }
-
-  .dual-images-container {
-    margin: -4% auto 2rem auto;
   }
 
   .video-description {
