@@ -1,6 +1,7 @@
 # To Do
 
 - All:
+  - If all .acura-headline elements are white, move back to global for large screens.
   - Give callout boxes some side margins on small screens.
   - Build nav.
   - Update links (#).

@@ -1,0 +1,86 @@
+/* Small only (below 640px) */
+@media screen and (max-width: 39.9375em) {
+
+  #header-img-sm {
+    background: url(../img/2019-acura-rlx/header-img/640x195-compressed.jpg) no-repeat center; /* 640 x 195 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30.5%;
+    width: 100%;
+  }
+
+  #dual-1 {
+    background: url(../img/2019-acura-rlx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+}
+
+/* Medium and up (above 640px) */
+@media screen and (min-width: 40em) {
+
+  #dual-1 {
+    background: url(../img/2019-acura-rlx/dual-1/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
+    background-size: cover;
+    float: left;
+  }
+
+  #dual-2 {
+    background: url(../img/2019-acura-rlx/dual-2/512x288-compressed.jpg) no-repeat center; /* 512 x 288 */
+    background-size: cover;
+  }
+
+}
+
+/* Medium only (between 640px and 1024px) */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+  #header-img-sm {
+    background: url(../img/2019-acura-rlx/header-img/1024x312-compressed.jpg) no-repeat center; /* 1024 x 312 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30.5%;
+    width: 100%;
+  }
+
+}
+
+/* Large and up (above 1024px) */
+@media screen and (min-width: 64em) {
+
+  #header-img-lg {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../img/2019-acura-rlx/header-img/1440x440-compressed.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rlx/header-img/1440x440-compressed.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rlx/header-img/1440x440-compressed.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rlx/header-img/1440x440-compressed.jpg); /* 1440 x 440 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30.5%;
+    width: 100%;
+  }
+
+  #h1-container {
+    margin-left: 2rem;
+  }
+
+  .acura-headline {
+    color: #fff;
+  }
+
+  .dual-images-container {
+    margin: -2.5% auto 2rem auto;
+  }
+
+  #contact-section-img-lg {
+    background: url(../img/2019-acura-rlx/contact-img/1440x864-compressed.jpg) no-repeat center; /* 1440 x 864 no gradient*/
+    background-size: cover;
+    height: 0;
+    padding-bottom: 60%;
+    position: relative;
+    width: 100%;
+  }
+
+}
