@@ -52,10 +52,10 @@
 @media screen and (min-width: 64em) {
 
   #header-img-lg {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg); /* 1440 x 440 */
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg);
+    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg);
+    background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../img/2019-acura-rdx/header-img/1440x440-compressed.jpg); /* 1440 x 440 */
     background-size: cover;
     height: 0;
     padding-bottom: 30.5%;

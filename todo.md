@@ -13,7 +13,7 @@
     - ILX [DONE]
     - MDX [DONE]
     - NSX [DONE]
-    - RDX
+    - RDX [DONE]
     - RLX
     - TLX
   - Create Favicon.
