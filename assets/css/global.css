@@ -158,6 +158,10 @@
   padding: 2rem 1rem;
 }
 
+#styled-form form {
+  background: transparent;
+}
+
 #styled-form h2 {
   color: #fff;
   font-family: "AcuraBespoke-Light" !important;
@@ -358,13 +362,21 @@
   }
 
   #styled-form {
+    background: rgba(0,0,0,0.85);
+    border-radius: 7px;
+    color: #fff;
     left: 3%;
+    padding: 2rem 1rem;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 46%;
+  }
+
+  #styled-form form {
+    background: transparent;
   }
 
 }
