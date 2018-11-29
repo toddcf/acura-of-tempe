@@ -201,14 +201,11 @@
 }
 
 #styled-form h2 {
+  color: #fff;
   font-family: "AcuraBespoke-Light" !important;
   font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
-}
-
-#styled-form h5 {
-  display: none;
 }
 
 #styled-form .callout {
@@ -218,11 +215,11 @@
   padding: 0;
 }
 
-#styled-form .callout label {
-  color:#fff;
+#styled-form label {
+  color: #fff;
 }
 
-#styled-form .callout input {
+#styled-form input {
   background: transparent;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -232,10 +229,13 @@
 }
 
 #styled-form label[name=preferred] {
+  display: inline-block;
   font-size: 9px;
+  margin-right: 20px;
 }
 
 #styled-form textarea {
+  border: 1px solid #fff;
   border-radius: 5px;
   background: transparent;
   color: #fff;
@@ -273,7 +273,8 @@
 }
 
 #styled-form small {
-  font-size: 40%;
+  color: #fff;
+  font-size: 9px;
 }
 
 #styled-form input[type=checkbox] {
