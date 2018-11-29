@@ -7,7 +7,6 @@
     - Link out to all these pages, plus the hub.
   - Update links (#).
   - Fix responsive font sizes.
-  - Rebuild CONTACT forms.
   - Build footer.
   - Create Favicon.
     - Crop Acura logo.

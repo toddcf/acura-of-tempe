@@ -365,7 +365,6 @@
     background: rgba(0,0,0,0.85);
     border-radius: 7px;
     color: #fff;
-    left: 3%;
     padding: 2rem 1rem;
     position: absolute;
     top: 50%;
@@ -373,6 +372,14 @@
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 46%;
+  }
+
+  .styled-form-left {
+    left: 3%;
+  }
+
+  .styled-form-right {
+    right: 3%;
   }
 
   #styled-form form {
