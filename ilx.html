@@ -138,9 +138,83 @@
         <!-- Image is passed into this container via CSS depending on screen size -->
 
         <div id="styled-form">
-          <!-- <h3>Contact Us </h3> -->
-          <!--[%formWidget?formName=contact%]-->
-        </div>
+
+          <form>
+
+          <div class="row">
+            <div class="column small-12">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            
+            <div class="column small-12 medium-6">
+              <label>First Name: <small>Required</small>
+                <input type="text" name="" required="">
+              </label>
+            </div>
+
+            <div class="column small-12 medium-6">
+              <label>Last Name: <small>Required</small>
+                <input type="text" name="" required="">
+              </label>
+            </div>
+
+            <div class="column small-12 medium-6">
+              <label>Email Address: <small>Required</small>
+                <input type="text" name="" required="">
+              </label>
+            </div>
+
+            <div class="column small-12 medium-6">
+              <label>Phone Number: <small>Required</small>
+                <input type="text" name="" required="">
+              </label>
+            </div>
+
+          </div> <!-- Close .row -->
+
+          <div class="row">
+
+            <div class="column small-12">
+
+              <label name="preferred">Preferred Contact Method:</label>
+              <input id="email-checkbox" type="checkbox" checked=""><label for="email-checkbox">Email</label>
+              <input id="phone-checkbox" type="checkbox"><label for="phone-checkbox">Phone</label>
+              <input id="text-message-checkbox" type="checkbox"><label for="text-message-checkbox">Text Message</label>
+
+            </div> <!-- Close .small-12 -->
+
+          </div> <!-- Close .row -->
+
+          <div class="row">
+
+            <div class="column small-12">
+
+              <label>Comments:
+                <textarea name="comments" rows="5"></textarea>
+              </label>
+
+            </div> <!-- Close .small-12 -->
+
+          </div> <!-- Close .row -->
+
+          <div class="row">
+
+            <div class="column small-12">
+
+              <input type="submit" value="Submit" class="button expand">
+
+            </div> <!-- Close .small-12 -->
+
+          </div> <!-- Close .row -->
+          
+        </form>
+        
+      </div> <!-- Close #styled-form -->
+          
+        </div> <!-- Close #styled-form -->
         
       </div> <!-- Close #contact-section-img-lg -->
 

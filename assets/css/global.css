@@ -153,66 +153,65 @@
 
 /* STYLED FORM */
 #styled-form {
-  background:rgba(0,0,0,.78);
-  color:#fff;
-  padding:1rem;
+  background: #000;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+#styled-form h2 {
+  color: #fff;
+  font-family: "AcuraBespoke-Light" !important;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#styled-form label {
+  color: #fff;
+}
+
+#styled-form input {
+  background: transparent;
+  border: 1px solid #fff;
   border-radius: 5px;
-}
-
-#styled-form h3 {
-  font-size: 1.5rem;
-}
-
-#styled-form .callout {
-  background:transparent;
-  color:#fff;
-  margin:0;
-  padding:0;
-}
-
-#styled-form .callout label {
-  color:#fff;
-}
-
-#styled-form .callout input {
-  background:transparent;
-  border:1px solid #fff;
-  color:#fff;
-  border-radius:5px;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #fff;
 }
 
 #styled-form label[name=preferred] {
-  font-size:9px;
+  display: inline-block;
+  font-size: 9px;
+  margin-right: 20px;
 }
 
 #styled-form textarea {
+  border: 1px solid #fff;
   border-radius: 5px;
   background: transparent;
   color: #fff;
 }
 
 #styled-form input.button {
-  border-radius: 5px;
-  width: 100%;
-  border: 2px solid #fff;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e82c2a), color-stop(0, transparent));
   background: -webkit-linear-gradient(left, #e82c2a 50%, transparent 0);
   background: -o-linear-gradient(left, #e82c2a 50%, transparent 0);
   background: linear-gradient(to right, #e82c2a 50%, transparent 0);
   background-position: right bottom;
   background-size: 200% 100%;
-  padding: 1.4rem 3.1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.2rem;
-  letter-spacing: .07rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: .07rem;
+  padding: 1.4rem 3.1rem;
+  position: relative;
+  text-transform: uppercase;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  position: relative;
+  width: 100%;
 }
 
 #styled-form input.button:hover,
@@ -225,11 +224,12 @@
 }
 
 #styled-form small {
-  font-size:40%;
+  color: #fff;
+  font-size: 9px;
 }
 
 #styled-form input[type=checkbox] {
-  margin:0;
+  margin: 0;
 }
 /* END STYLED FORM */
 

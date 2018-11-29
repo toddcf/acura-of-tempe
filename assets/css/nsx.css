@@ -208,13 +208,6 @@
   text-transform: uppercase;
 }
 
-#styled-form .callout {
-  background: transparent;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
 #styled-form label {
   color: #fff;
 }
