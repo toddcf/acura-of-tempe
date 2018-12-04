@@ -5,8 +5,8 @@
   - Fix red vertical line next to video so that height is the same as the video and the text.
   - Build nav.
     - Link out to all these pages, plus the hub.
-  - Update links (#).
-  - Fix responsive font sizes.
+  - Update all links (#).
+  - Fix all font sizes.
   - Build footer.
   - Create Favicon.
     - Crop Acura logo.

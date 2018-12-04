@@ -1,0 +1,33 @@
+.name,
+.name a {
+  width: 150px;
+}
+
+.name {
+  position: relative;
+}
+
+.name a {
+  left: 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fa-chevron-left {
+  margin-right: 5%;
+}
+
+
+
+
+/* Large and up (above 1024px) */
+@media screen and (min-width: 1024px) {
+
+  nav {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+  }
+
+}
