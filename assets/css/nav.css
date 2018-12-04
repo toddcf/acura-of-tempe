@@ -21,13 +21,30 @@
 
 
 
+/* Medium and up (above 640px) */
+@media screen and (min-width: 640px) {}
+
 /* Large and up (above 1024px) */
 @media screen and (min-width: 1024px) {
 
-  nav {
+  .top-bar {
+    background: #fff;
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
+  }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: #000;
+  }
+
+  .top-bar-section .has-dropdown > a::after {
+    border-color: rgba(0, 0, 0, 0.9) transparent transparent transparent;
+  }
+
+  .top-bar-section .has-dropdown:hover > a::after {
+    border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
   }
 
 }

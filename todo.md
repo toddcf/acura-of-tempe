@@ -1,10 +1,9 @@
 # To Do
 
 - All:
+  - Add nav to all pages, and change ACTIVE class.
   - Give callout boxes some side margins on small screens.
   - Fix red vertical line next to video so that height is the same as the video and the text.
-  - Build nav.
-    - Link out to all these pages, plus the hub.
   - Update all links (#).
   - Fix all font sizes.
   - Build footer.
