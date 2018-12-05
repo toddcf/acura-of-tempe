@@ -21,18 +21,56 @@
 
   <title>2019 Acura RDX | Acura of Tempe</title>
   
-  <!-- STANDARDIZED CSS -->
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   
+  <!-- FOUNDATION CSS -->
   <link rel="stylesheet" type="text/css" href="assets/foundation-5.5.3/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/foundation-5.5.3/css/foundation.css">
-  <!-- CUSTOM GLOBAL CSS -->
+
+  <!-- GLOBAL CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
   <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+  
   <!-- CUSTOM CSS FOR THIS PAGE ONLY -->
   <link rel="stylesheet" type="text/css" href="assets/css/rdx.css">
   
 </head>
 
 <body>
+
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <a href="index.html"><i class="fas fa-chevron-left"></i>View All</a>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <!-- <li class="active"><a href="#">Right Button Active</a></li> -->
+        <li class="has-dropdown">
+          <a href="#">Select a Model</a>
+          <ul class="dropdown">
+            <li><a href="ilx.html">2019 Acura ILX</a></li>
+            <li><a href="tlx.html">2019 Acura TLX</a></li>
+            <li><a href="rlx.html">2019 Acura RLX</a></li>
+            <li class="active"><a href="rdx.html">2019 Acura RDX</a></li>
+            <li><a href="mdx.html">2019 Acura MDX</a></li>
+            <li><a href="nsx.html">2019 Acura NSX</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Left Nav Section -->
+      <!-- <ul class="left">
+        <li><a href="#">Left Nav Button</a></li>
+      </ul> -->
+    </section>
+  </nav>
 
   <main id="project-container">
 
@@ -220,10 +258,16 @@
       </div> <!-- Close #contact-section-img-lg -->
 
     </section> <!-- Close #contact-section -->
-
-    
     
   </main> <!-- Close #project-container -->
+
+  <script src="assets/foundation-5.5.3/js/vendor/jquery.js" type="text/javascript"></script>
+  <script src="assets/foundation-5.5.3/js/foundation/foundation.js" type="text/javascript"></script>
+  <script src="assets/foundation-5.5.3/js/foundation/foundation.topbar.js" type="text/javascript"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
 
 </body>
 

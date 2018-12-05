@@ -12,4 +12,5 @@
     - Format.
     - Add to project.
   - Build hub to link out to all these pages.
+    - Link the nav on EVERY page back to this hub.
   - Push live to GH Pages.

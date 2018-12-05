@@ -8,14 +8,32 @@
 }
 
 .name a {
+  font-weight: bold;
   left: 10%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.name a:hover {
+  color: #fff;
 }
 
 .fa-chevron-left {
   margin-right: 5%;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  font-weight: bold;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #e6231e;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  background: #222;
 }
 
 
@@ -32,6 +50,14 @@
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
+  }
+
+  .name a {
+    color: #e6231e;
+  }
+
+  .name a:hover {
+    color: #000;
   }
 
   .top-bar-section li:not(.has-form) a:not(.button) {
