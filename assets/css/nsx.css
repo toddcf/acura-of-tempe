@@ -188,6 +188,10 @@
   width: 100%;
 }
 
+#project-container #contact-section {
+  margin-bottom: 2rem;
+}
+
 
 
 
@@ -372,6 +376,10 @@
     margin: 4rem 0 2rem 0;
   }
 
+  #project-container #contact-section {
+    margin-bottom: 6rem;
+  }
+
   #styled-form {
     border: 6px solid #fff;
     margin: -20% auto 4rem auto;
@@ -484,6 +492,3 @@
   }
 
 }
-
-/* Large only (between 1024px and 1200px) */
-@media screen and (min-width: 1024px) and (max-width: 1200px) {}
