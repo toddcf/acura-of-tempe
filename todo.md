@@ -1,8 +1,6 @@
 # To Do
 
 - All:
-  - Fix all font sizes.
-    - Then fix red vertical line next to video so that height is the same as the video and the text.
   - Build footer.
     - This page was originally created for Acura of Tempe by Todd Croak-Falen at fusionZONE Automotive, LLC (link). It is recreated here for his web design portfolio:
     - Link to my portfolio.
