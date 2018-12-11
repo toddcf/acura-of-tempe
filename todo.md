@@ -1,7 +1,6 @@
 # To Do
 
 - All:
-  - Give callout boxes some side margins on small screens.
   - Fix all font sizes.
     - Then fix red vertical line next to video so that height is the same as the video and the text.
   - Build footer.
