@@ -1,0 +1,159 @@
+/* FONTS */
+
+@font-face {
+  font-family: "AcuraBespoke-Light";
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AcuraBespoke-Regular";
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "AcuraBespoke-Bold";
+  src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
+}
+
+#h1-container {
+  padding: 1rem;
+}
+
+.intro-text-box {
+  border: 2px solid #1e264e;
+  padding: 1rem 1.5rem;
+}
+
+.acura-subhead,
+.acura-header {
+  text-transform: uppercase;
+}
+
+.acura-headline,
+.acura-subhead {
+  color: #1e264e;
+  font-family: "AcuraBespoke-Light" !important;
+}
+
+.acura-header {
+  font-family: "AcuraBespoke-Bold" !important;
+  font-size: 1.5em;
+}
+
+.acura-body-copy,
+#project-container p {
+  color: #1e264e;
+  font-family: "AcuraBespoke-Regular" !important;
+  font-size: 1rem;
+  text-transform: none;
+}
+
+#project-container {
+  font-size: 10px;
+}
+
+#project-container h1 {
+  font-size: 3em;
+}
+
+#project-container h2 {
+  font-size: 1.25em;
+}
+
+#project-container p {
+  font-size: 16px;
+}
+
+
+/* LINKS */
+#project-container .acura-link:link,
+#project-container .acura-link:visited {
+  border-bottom: 1px solid #e82c2a;
+  color: #e82c2a;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+#project-container .acura-link:hover,
+#project-container .acura-link:active,
+#project-container .acura-link:focus {
+  border-bottom: 1px solid #005096;
+  color: #005096;
+}
+
+
+
+
+/* SPACING */
+#project-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#project-container section {
+  margin-bottom: 2rem;
+}
+
+
+
+
+/* Foundation Breakpoints */
+
+/* Small only (below 640px) */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up (above 640px) */
+@media screen and (min-width: 40em) {
+
+  #project-container {
+    font-size: 11px;
+  }
+
+  #h1-container {
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: 90%;
+  }
+
+}
+
+/* Medium only (between 640px and 1024px) */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+}
+
+/* Large and up (above 1024px) */
+@media screen and (min-width: 64em) {
+
+  #project-container {
+    font-size: 16px;
+  }
+
+  #header-img-lg {
+    background: url(../img/2019-acura-ilx/four-ilx-futuristic-bridge-lights/1440x917-compressed.jpg) no-repeat center; /* 1440 x 917 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 63.6%;
+    width: 100%;
+  }
+
+  .intro-text-box {
+    background: rgba(0,0,0,0.6);
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1rem 3rem;
+  }
+
+  .acura-headline {
+    color: #fff;
+  }
+
+  .acura-body-copy,
+  #project-container p {
+    color: #fff;
+  }
+
+}
+
+/* Large only (between 1024px and 1200px) */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
