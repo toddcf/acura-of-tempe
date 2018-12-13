@@ -15,10 +15,6 @@
   src: url("../fonts/AcuraBespoke/AcuraBespoke/AcuraBespoke-Bold.otf") format("truetype");
 }
 
-#h1-container {
-  padding: 1rem;
-}
-
 .intro-text-box {
   border: 2px solid #1e264e;
   padding: 1rem 1.5rem;
@@ -95,6 +91,11 @@
   margin-bottom: 2rem;
 }
 
+.card-image {
+  height: auto;
+  width: 100%;
+}
+
 
 
 
@@ -111,9 +112,7 @@
   }
 
   #h1-container {
-    margin: 0 auto;
     padding-top: 2rem;
-    width: 90%;
   }
 
 }
@@ -129,12 +128,21 @@
     font-size: 16px;
   }
 
+  #project-container .row {
+    max-width: 1440px;
+  }
+
   #header-img-lg {
     background: url(../img/2019-acura-ilx/four-ilx-futuristic-bridge-lights/1440x917-compressed.jpg) no-repeat center; /* 1440 x 917 */
     background-size: cover;
     height: 0;
     padding-bottom: 63.6%;
     width: 100%;
+  }
+
+  #h1-container {
+    margin: 0 auto;
+    width: 90%;
   }
 
   .intro-text-box {
