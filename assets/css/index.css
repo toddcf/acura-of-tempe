@@ -87,9 +87,33 @@
   margin-bottom: 2rem;
 }
 
+#hub-section .card {
+  box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, .2);
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: 0.3s ease-out;
+}
+
+#hub-section .card:hover {
+  box-shadow: 14px 14px 13px 2px rgba(0, 0, 0, .15);
+  transform: scale(1.01);
+}
+
 .card-image {
   height: auto;
   width: 100%;
+}
+
+.card-title {
+  background: #000;
+  text-align: center;
+}
+
+.card-title h2 {
+  color: #fff;
+  font-family: "AcuraBespoke-Light" !important;
+  margin: 0;
+  padding: 0.5rem 0 0.75rem 0;
 }
 
 
@@ -102,6 +126,10 @@
 
 /* Medium and up (above 640px) */
 @media screen and (min-width: 40em) {
+
+  #project-container section {
+    margin-bottom: 3rem;
+  }
 
   #h1-container {
     padding-top: 2rem;
@@ -118,6 +146,10 @@
 
   #project-container .row {
     max-width: 1440px;
+  }
+
+  #project-container section {
+    margin-bottom: 4rem;
   }
 
   .intro-text-box {
