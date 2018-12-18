@@ -100,6 +100,10 @@
   outline: 0;
 }
 
+#project-container video {
+  width: 100%;
+}
+
 .callout-text,
 .video-description {
   padding: 1.5rem;
