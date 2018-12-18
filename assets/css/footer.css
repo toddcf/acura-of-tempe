@@ -2,11 +2,13 @@ footer {
   background: #000;
   border-top: 3px solid #e6231e;
   color: #fff;
-  font-family: "AcuraBespoke-Regular" !important;
   padding: 3em 0;
   text-align: center;
 }
 
+footer p {
+  font-family: "AcuraBespoke-Regular";
+}
 
 footer a:active,
 footer a:focus,

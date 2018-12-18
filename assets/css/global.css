@@ -22,11 +22,11 @@
 
 .acura-headline,
 .acura-subhead {
-  font-family: "AcuraBespoke-Light" !important;
+  font-family: "AcuraBespoke-Light";
 }
 
 .acura-header {
-  font-family: "AcuraBespoke-Bold" !important;
+  font-family: "AcuraBespoke-Bold";
   font-size: 1.5em;
 }
 
@@ -50,7 +50,7 @@
 }
 
 #h1-sub {
-  font-family: "AcuraBespoke-Regular" !important;
+  font-family: "AcuraBespoke-Regular";
   font-size: 1rem;
   margin-bottom: 0.75rem;
   text-transform: none;
@@ -165,7 +165,7 @@
 
 #styled-form h2 {
   color: #fff;
-  font-family: "AcuraBespoke-Light" !important;
+  font-family: "AcuraBespoke-Light";
   font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -314,7 +314,7 @@
   }
 
   #h1-year {
-    font-family: "AcuraBespoke-Regular" !important;
+    font-family: "AcuraBespoke-Regular";
   }
 
   .acr-cta-r-trans-w {

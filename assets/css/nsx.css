@@ -29,23 +29,23 @@
 
 .acura-headline {
   color: #1e264e;
-  font-family: "AcuraBespoke-Light" !important;
+  font-family: "AcuraBespoke-Light";
   font-size: 2.5rem;
   line-height: 1.17;
   letter-spacing: 0.021em;
 }
 
 .acura-subhead {
-  font-family: "AcuraBespoke-Bold" !important;
+  font-family: "AcuraBespoke-Bold";
   font-size: 1.875rem;
 }
 
 .acura-header {
-  font-family: "AcuraBespoke-Bold" !important;
+  font-family: "AcuraBespoke-Bold";
 }
 
 .acura-performance-v2 {
-  font-family: "Acura-Performance-v2" !important;
+  font-family: "Acura-Performance-v2";
   font-size: 2.9rem;
 }
 
@@ -82,7 +82,7 @@
 .acura-inventory-link:visited {
   color: #e6231e;
   display: inline-block;
-  font-family: "AcuraBespoke-Bold" !important;
+  font-family: "AcuraBespoke-Bold";
   font-size: 1rem;
   padding: 0 0.5rem;
   position: relative;
@@ -206,7 +206,7 @@
 
 #styled-form h2 {
   color: #fff;
-  font-family: "AcuraBespoke-Light" !important;
+  font-family: "AcuraBespoke-Light";
   font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -452,7 +452,7 @@
   }
 
   #h1-year {
-    font-family: "AcuraBespoke-Regular" !important;
+    font-family: "AcuraBespoke-Regular";
   }
 
   #offset-section {
